@@ -1,0 +1,116 @@
+# =========================
+# Vivado
+# =========================
+
+*.jou
+*.log
+*.str
+*.pb
+*.cache
+*.hw
+*.runs
+*.sim
+*.ip_user_files
+*.gen
+*.xpr.user
+*.tmp
+
+.cache/
+.hw/
+.runs/
+.sim/
+.gen/
+.ip_user_files/
+
+# Vivado Reports
+*.rpt
+*.dcp
+*.xdc.backup
+
+# =========================
+# Waveforms / Simulation
+# =========================
+
+*.wdb
+*.vcd
+*.saif
+*.vvp
+*.fst
+
+# =========================
+# Yosys
+# =========================
+
+*.json
+*.dot
+
+# =========================
+# Verilator
+# =========================
+
+obj_dir/
+*.vcd
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+
+# =========================
+# Operating System
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.pyc
+
+# =========================
+# Node (if dashboard added later)
+# =========================
+
+node_modules/
+dist/
+build/
+
+# =========================
+# Temporary Files
+# =========================
+
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# =========================
+# Keep Important Reports
+# =========================
+
+!reports/*.txt
+!reports/*.md
+
+# Keep Documentation
+!docs/*.md
+
+# Keep Images
+!images/*.png
+
+# Keep Simulation Screenshots
+!simulation/*.png
+
+# Keep Constraints
+!constraints/*.xdc
+
+# Keep RTL & Testbenches
+!rtl/*.v
+!tb/*.v
+
+# Keep Scripts
+!scripts/*.ys

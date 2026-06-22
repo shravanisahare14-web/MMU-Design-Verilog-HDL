@@ -1,0 +1,24 @@
+read_verilog rtl/tlb.v
+read_verilog rtl/lru.v
+read_verilog rtl/ptw.v
+read_verilog rtl/pte_memory.v
+read_verilog rtl/permission_checker.v
+read_verilog rtl/mmu_top.v
+
+hierarchy -top mmu_top
+
+proc
+opt
+
+fsm
+opt
+
+memory
+opt
+
+techmap
+opt
+
+stat
+
+write_json mmu_top.json
